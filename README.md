@@ -22,7 +22,7 @@
 
 ## Sections 📚
 ✔️ About me\
-✔️ Experience\
+<!-- ✔️ Experience\ -->
 ✔️ Projects \
 ✔️ Skills \
 ✔️ Education\
