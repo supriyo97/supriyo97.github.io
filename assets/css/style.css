@@ -302,6 +302,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.about{
+  text-align: justify;
+}
+
 .section {
   padding-bottom: 30px;
   padding-top: 0;
@@ -326,6 +330,7 @@ h3 {
 
 #intro.section .container {
   color: white;
+  text-align: justify;
   font-weight: 200;
   left: 0;
   position: absolute;

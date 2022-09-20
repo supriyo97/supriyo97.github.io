@@ -99,6 +99,17 @@
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#project" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Project</span></a>
+      </li>
       
       <li class="bold">
         <!--
@@ -127,7 +138,7 @@
         4. mdi-file-attachment
         5. mdi-file-folder-shared
         -->
-        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
+        <!-- <a aria-label="Open Supriya's resume in a new tab" href="#resume" target="_blank"
           onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
         <a aria-label="Open Supriya's resume in a new tab" href="https://supriyo97.github.io/assets/resume/my_resume.pdf" target="_blank"
@@ -152,6 +163,11 @@
       <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#project" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Project</span></a>
       </li>
 
       <li class="bold">
@@ -182,10 +198,11 @@
               <h2>Hi, I'm <span class="teal">Supriya Mandal.</span></h2>
               <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#eaf8f6"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>
+              <h5 style="text-align: justify">
                 I am a Computational Data Sciences(CDS) Postgrad Student at Indian Institute of Science, Bangalore. 
                 My research area focuses on Artificial Intelligence at the intersection of Computer Vision, Machine Learning and Deep Learning. 
-                I'm currently working at Visual Computing Lab, under the supervision of Prof. Anirban Chakraborty. 
+                I'm currently working at <span class="card-title"><a href="https://visual-computing.in/" target="_blank" class="teal-text hoverline">Visual Computing Lab</a></span>, under the supervision of 
+                <span class="card-title"><a href="https://anirbanchakraborty.github.io/" target="_blank" class="teal-text hoverline">Prof. Anirban Chakraborty</a></span>. 
                 I am passionate about developing Machine learning/Deep learning models that could solve complex and challenging real-world problems impacting millions of users.
               </h5>
             </div>
@@ -217,7 +234,7 @@
       </div>
     </section>
 
-    <!-- Fifth Section: Skills -->
+    <!-- Second Section: Skills -->
     <section id="skills" class="section scrollspy">
       <h3 class="page-title white-text teal">Skills</h3>
       <div class="container">
@@ -332,7 +349,130 @@
       </div>
     </section>
 
-    <!-- Seventh Section: Education -->
+
+    <!-- Three Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- Face recognition project -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Face recognition with limited data" src="/assets/img/face_recognition.jpeg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Face recognition with limited data<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Face recognition model which is trained with limited amount of data(few shot learning).
+                </p>
+              </div>
+              <div class="card-reveal"> -->
+                <!-- TODO: change this -- only close button -->
+                <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><span class="card-title"><a href="https://talhassner.github.io/home/projects/lfwa/index.html" target="_blank" class="teal-text hoverline">Labelled Faces in the Wild(LFW)</a></span> face dataset was used where
+                    some people have a single image and some have multiples. </li>
+                  <li><span class="card-title"><a href="https://www.youtube.com/watch?v=6jfw8MuKwpI" target="_blank" class="teal-text hoverline">Siamese Neural Networks (SNN)</a></span> was used, where we can compare two images without retrain the network for the new classes.</li>
+                  <li>Incorporated Convolution Neural Networks (CNN) for feature extraction</li>
+                  <li><b>Tools:</b>TensorFlow, Keras, Kaggle</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://www.kaggle.com/code/supriya97/mlsp-project-face-recognition" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <!-- <a aria-label="Visit the GitHub repo for  project" href="https://github.com/supriyo97/face"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Multi class classification using pretrained CNN -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Multi class classification" src="/assets/img/car_classification.jpeg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline"> Multi class car classification using pretrained CNN models<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Multi-class classification model which could classify different car models.
+                </p>
+              </div>
+              <div class="card-reveal"> -->
+                <!-- TODO: change this -- only close button -->
+                <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li> Worked on  <span class="card-title"><a href="https://ai.stanford.edu/~jkrause/cars/car_dataset.html" target="_blank" class="teal-text hoverline">Stanford Car dataset</a></span> which has more than 16k images with 196 classes </li>
+                  <li>After preprocessing of the image data by resizing, used transfer learning approach</li>
+                  <li>Trained the model with few pre-trained CNN models such as AlexNet, ResNet50 and VGG16 </li>
+                  <li><b>Tools:</b>TensorFlow, Keras, Kaggle</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://www.kaggle.com/code/vk2407/icaiml-project-shared" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Efficient stepping strategy for standing bipedal robots -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Efficient stepping strategy" src="/assets/img/steps_robot.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline"> Efficient stepping strategy for standing bipedal robots under external perturbations <i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Efficient trained stepping strategy for standing bipedal robots while external force was applied on it.
+                </p>
+              </div>
+              <div class="card-reveal"> -->
+                <!-- TODO: change this -- only close button -->
+                <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li> We used forward and inverse kinematics for getting the desired position of the leg and arm </li>
+                  <li> Also used inverse pendulum model for balance the robot</li>
+                  <li>Used Neuro-Fuzzy system for learning strategy </li>
+                  <li><b>Tools:</b>Webots, C, MATLAB</li>
+
+
+                </ul>
+                <!-- <div class="card-action">
+                  <a aria-label="Visit " href="https://" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+
+    <!-- Forth Section: Education -->
     <section id="education" class="section scrollspy">
       <h3 class="page-title white-text teal">Education</h3>
       <div class="container">
@@ -403,14 +543,14 @@
       </div>
     </section>
 
-    <!-- Eight Section: Contact -->
+    <!-- Fifth Section: Contact -->
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
         <p>
-          <!-- <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
+          <!-- <a aria-label="Call Supriya" data-position="top" data-tooltip="Call Supriya"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Varad">+14805722456</a></a> -->
+              aria-label="Call Me">Phone no</a></a> -->
         </p>
         <p>
           <a aria-label="Email SupriyaM" href="mailto:supriyam@iisc.ac.in" target="_blank" data-position="top"
