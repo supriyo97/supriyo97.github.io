@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #313335;
+  color: #27292e;
 }
 
 /* main blockqoute */
@@ -478,7 +478,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #313335 !important;
+  border-bottom: 3px solid #27292e !important;
 }
 
 #skills .card.large {
