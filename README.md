@@ -1,7 +1,7 @@
 <div align="center">
   
-# Personal Portfolio Website⚡️ 
-> This is my portfolio website where we can get to know about me, my resume, works, experiences, projects, contacts. 
+# Personal Portfolio Website ⚡️ 
+> This is my portfolio website hosted with github.
 
 > https://supriyo97.github.io/
 
