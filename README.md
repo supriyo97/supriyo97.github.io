@@ -1,24 +1,17 @@
-# Personal Portfolio ⚡️ 
+<div align="center">
+  
+# Personal Portfolio Website⚡️ 
 > This is my portfolio website where we can get to know about me, my resume, works, experiences, projects, contacts. 
 
 > https://supriyo97.github.io/
 
 <!-- ![GitHub stars](https://img.shields.io/github/stars/supriyo97/https://supriyo97.github.io/) 
 ![GitHub forks](https://img.shields.io/github/forks/supriyo97/https://supriyo97.github.io/) -->
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/supriyo97/https://supriyo97.github.io//commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://https://supriyo97.github.io//)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/supriyo97/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-2ECC71.svg)](https://github.com/supriyo97/https://supriyo97.github.io//commits/master)
+[![Website shields.io](https://img.shields.io/badge/website-up-F37626)](http://https://supriyo97.github.io//)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-007EC6.svg)](https://www.linkedin.com/in/supriyo97/)
 
-<!-- ### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="https://supriyo97.github.io/" target="_blank"><img src="examples/preview.gif">
-  </a>
-  </kbd>
-</p> -->
-
-<!-- :star: Star me on GitHub — it helps! -->
+</div>
 
 ## Sections 📚
 ✔️ About me\
