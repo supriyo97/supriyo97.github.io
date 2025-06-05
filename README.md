@@ -7,9 +7,9 @@
 
 <!-- ![GitHub stars](https://img.shields.io/github/stars/supriyo97/https://supriyo97.github.io/) 
 ![GitHub forks](https://img.shields.io/github/forks/supriyo97/https://supriyo97.github.io/) -->
-[![Maintenance](https://img.shields.io/badge/maintained-yes-2ECC71.svg)](https://github.com/supriyo97/https://supriyo97.github.io//commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-F37626)](http://https://supriyo97.github.io//)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-007EC6.svg)](https://www.linkedin.com/in/supriyo97/)
+[![Maintenance](https://img.shields.io/badge/Maintained-yes-2ECC71.svg)](https://github.com/supriyo97/https://supriyo97.github.io//commits/master)
+[![Website shields.io](https://img.shields.io/badge/Website-up-F37626)](http://https://supriyo97.github.io//)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-linkedin-007EC6.svg)](https://www.linkedin.com/in/supriyo97/)
 
 </div>
 
